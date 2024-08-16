@@ -1,0 +1,26 @@
+.monaco-editor.no-user-select .lines-content, 
+.monaco-editor.no-user-select .view-line, 
+.monaco-editor.no-user-select .view-lines {
+  background-color: rgba(3, 3, 3, 0.473) !important;
+}
+
+/* Ensure that the editor container takes up the full available space */
+.monaco-editor-container {
+  width: 100vw; /* Full viewport width */
+  height: 100vh; /* Full viewport height */
+  position: absolute; /* Absolute positioning to fill the window */
+  top: 0;
+  left: 0;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Ensure the editor itself also fills the container */
+.monaco-editor {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
